@@ -1,5 +1,6 @@
 #include <cmath>
 #include <iostream>
+#include <string>
 
 void print_element(long *arr, long size, long root_index, long level_pyr) {
   long left_index = (2 * root_index) + 1;
